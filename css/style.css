@@ -4,14 +4,72 @@
     --heading-font-family: 'PT Serif', serif;
     --secondary-font-family: Arial, Helvetica, sans-serif;
 }
+.main-button {
+    background-color: var(--secondary-color);
+}
+.main-button:hover{
+    border: 1px solid var(--secondary-color);
+    color: white;
+}
+.content-button {
+    background-color: var(--secondary-color);
+}
+.content-button:hover {
+    background-color: white;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color)
+
+}
+
+body {
+    background-color: var(--primary-color);
+}
 h1 {
     font-family: var(--heading-font-family);
     font-weight: 700;
     font-size: 65px;
     padding-bottom: 20px;
 }
-p {
+
+.container-1 {
+    background-color: white;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+}
+.container-2 {
+    background-color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+}
+.container-3 {
+    background-color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+}
+.container-4 {
+    background-color: white;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 100px;
+}
+.content {
+    margin-top: 20px;
+}
+.paragraph-details {
+    padding-top: 200px;
    
+   
+}
+.details-section {
+    text-align: center;
+}
+.details-section-2 {
+    text-align: center;
 }
 .intro-1 {
     font-family: var(--secondary-font-family);
@@ -35,4 +93,37 @@ p {
     color: white;
     border-radius: 0;
     padding: 20px 30px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+  }
+  
+  @media (max-width: 767px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+}
+@media(max-width: 767px) {
+    .details-section-2,
+    .world-section {
+      width: 100%;
+    }
+    .world-section img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+footer {
+    text-align: center;
+    padding-bottom: 100px;
 }
