@@ -20,6 +20,9 @@
     color: var(--secondary-color)
 
 }
+.secondary {
+    padding-top: 150px;
+}
 
 body {
     background-color: var(--primary-color);
@@ -29,6 +32,11 @@ h1 {
     font-weight: 700;
     font-size: 65px;
     padding-bottom: 20px;
+}
+.headings {
+    font-family: var(--heading-font-family);
+    font-size: 45px;
+    margin-bottom: 20px;
 }
 
 .container-1 {
@@ -59,12 +67,9 @@ h1 {
 }
 .content {
     margin-top: 20px;
+    
 }
-.paragraph-details {
-    padding-top: 200px;
-   
-   
-}
+
 .details-section {
     text-align: center;
 }
@@ -109,8 +114,21 @@ h1 {
   }
   
   @media (max-width: 767px) {
+    h1 {
+        font-size: 50px;
+    }
+    .intro-1 {
+        font-size: 35px;
+    }
+    .intro-career {
+        font-size: 25px;
+    }
     .grid-container {
       grid-template-columns: 1fr;
+    }
+    .content-button {
+        margin-bottom: 50px;
+        margin-top: 50px;
     }
 }
 @media(max-width: 767px) {
