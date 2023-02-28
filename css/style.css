@@ -183,3 +183,14 @@ footer {
 .paragraph-about {
     margin-bottom: 30px;
 }
+.work-intro {
+    margin-top: 100px;
+    margin-bottom: 100px !important;
+}
+.content-container {
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
