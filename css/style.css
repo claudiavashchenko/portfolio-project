@@ -151,7 +151,7 @@ footer {
 }
 .container-about {
     margin-top: 100px;
-   
+   margin-bottom: 100px;
     background-color: white;
     
 }
@@ -163,6 +163,7 @@ footer {
 }
 .img-claudia {
     border-radius: 20px;
+   
 }
 .img-weather {
     border-radius: 20px;
@@ -175,4 +176,10 @@ footer {
 }
 .img-art {
     border-radius: 20px;
+}
+.project-btn {
+   text-align: center;
+}
+.paragraph-about {
+    margin-bottom: 30px;
 }
