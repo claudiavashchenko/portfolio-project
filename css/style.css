@@ -23,6 +23,12 @@
 .secondary {
     padding-top: 150px;
 }
+.index-links {
+    margin-top: 100px;
+}
+.site-button { 
+   margin-top: 20px;
+}
 
 body {
     background-color: var(--primary-color);
