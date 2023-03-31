@@ -1,7 +1,7 @@
 :root{
     --primary-color:  rgb(241, 231, 244);
     --secondary-color: rgb(42, 41, 42);
-    --heading-font-family: 'PT Serif', serif;
+    --heading-font-family:'Lora', serif;;
     --secondary-font-family: Arial, Helvetica, sans-serif;
 }
 .main-button {
@@ -29,7 +29,8 @@ body {
 }
 h1 {
     font-family: var(--heading-font-family);
-    font-weight: 700;
+    font-weight: 500;
+    font-style: italic;
     font-size: 65px;
     padding-bottom: 20px;
 }
@@ -147,7 +148,8 @@ footer {
     padding-bottom: 100px;
 }
 .logo-final {
-    width: 75px;
+    width: 300px;
+    
 }
 .container-about {
     margin-top: 100px;
