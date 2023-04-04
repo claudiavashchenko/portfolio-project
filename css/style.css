@@ -30,9 +30,9 @@
    margin-top: 20px;
 }
 .tagline {
-    margin-top: 150px;
+    margin-top: 75px;
     
-    font-size: 60px;
+    font-size: 45px;
     font-family: 'Cinzel Decorative';
 }
 
@@ -95,7 +95,7 @@ h1 {
 .intro-1 {
     font-family: var(--secondary-font-family);
     font-size: 45px;
-    padding-top: 100px;
+    padding-top: 75px;
 }
 .intro-career {
     font-family: var(--secondary-font-family);
