@@ -29,9 +29,17 @@
 .site-button { 
    margin-top: 20px;
 }
+.tagline {
+    margin-top: 150px;
+    
+    font-size: 60px;
+    font-family: 'Cinzel Decorative', cursive;
+}
 
+   
 body {
     background-color: var(--primary-color);
+   
 }
 h1 {
     font-family: var(--heading-font-family);
